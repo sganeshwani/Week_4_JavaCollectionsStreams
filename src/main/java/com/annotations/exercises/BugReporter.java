@@ -1,6 +1,6 @@
 package com.annotations.exercises;
 
-// class with a method annotated with multiple bug reports
+// class with a method annotated with multiple bug reports.
 public class BugReporter {
 
     @BugReport(description = "Null pointer exception under certain conditions")
@@ -9,7 +9,7 @@ public class BugReporter {
         System.out.println("Executing problematic method");
     }
 
-    // main method to retrieve and print all bug reports using reflection
+    // main method to retrieve and print all bug reports using reflection.
     public static void main(String[] args) {
         try {
             java.lang.reflect.Method method = BugReporter.class.getMethod("problematicMethod");
