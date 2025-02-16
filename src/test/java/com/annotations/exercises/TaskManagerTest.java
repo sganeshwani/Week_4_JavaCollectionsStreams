@@ -1,6 +1,6 @@
 package com.annotations.exercises;
 
-// JUnit test to verify the annotation details
+// JUnit test to verify the annotation details.
 import org.junit.jupiter.api.Test;
 import java.lang.reflect.Method;
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,6 +1,6 @@
 package com.annotations.exercises;
 
-// class using the custom annotation
+// class using the custom annotation.
 public class TaskManager {
 
     // annotated method with task info
