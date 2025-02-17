@@ -41,6 +41,7 @@ class ExpensiveComputation {
     }
 }
 
+
 class CacheInterceptor {
 
     public static Object invokeWithCache(Object target, Method method, Object[] args) throws Exception {
