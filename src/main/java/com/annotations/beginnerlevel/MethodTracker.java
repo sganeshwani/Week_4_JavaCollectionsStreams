@@ -46,7 +46,7 @@ class ImportantMethodTracker {
                 // Print method details: name and importance level
                 System.out.println("Method: " + method.getName());
                 System.out.println("Importance Level: " + importantMethod.level());
-                System.out.println("-------------------------");
+                System.out.println("--------------------------");
             }
         }
     }
