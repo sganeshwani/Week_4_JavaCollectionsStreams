@@ -33,7 +33,7 @@ class ExpensiveComputation {
     public int expensiveMethod(int input) {
         // Simulate expensive computation
         try {
-            Thread.sleep(2000);  // Simulating long computation (e.g., 2 seconds)
+            Thread.sleep(2000);  // Simulating long computation (eg- 2 seconds)
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
